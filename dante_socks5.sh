@@ -75,8 +75,10 @@ socks5_restart(){
 }
 
 socks5_deluser(){
+/etc/init.d/sockd  status
 
-/etc/init.d/sockd deluser
+echo -e "命令提示：/etc/init.d/sockd deluser +用户名"
+
 
 }
 
