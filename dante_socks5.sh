@@ -56,8 +56,10 @@ socks5_add(){
 
 /etc/init.d/sockd adduser GameOn GameOn
 
-echo -e "默认添加用户密码为GameOn GameOn"
+echo  red -e "默认添加用户密码为：GameOn GameOn"
 
+
+echo blue -e "命令提示：/etc/init.d/sockd adduser 用户名 密码"
 }
 
 
@@ -77,7 +79,7 @@ socks5_restart(){
 socks5_deluser(){
 /etc/init.d/sockd  status
 
-echo -e "命令提示：/etc/init.d/sockd deluser +用户名"
+echo -e "命令提示：/etc/init.d/sockd deluser 用户名 密码"
 
 
 }
