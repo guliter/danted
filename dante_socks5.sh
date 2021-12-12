@@ -56,7 +56,7 @@ socks5_add(){
 
 read -p "添加Socks5用户（用户和密码相同）：" users
 
-    /etc/init.d/sockd adduser &users &users
+    /etc/init.d/sockd adduser "&users" "&users"
 }
 
 
