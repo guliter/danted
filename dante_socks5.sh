@@ -44,7 +44,9 @@ install_pack() {
 Dante_socks5(){
     #check root
     wget --no-check-certificate https://raw.githubusercontent.com/guliter/danted/dev/install.sh -O install.sh&&bash install.sh  --port="9527" --user="789" --passwd="789"
-
+echo   
+red "默认添加用户密码为：789 789 端口：9527"
+echo
 }
 
 uninstall_socks5(){
@@ -87,14 +89,14 @@ echo
 start_menu(){
     clear
     echo
-    white "—————————————【多IP服务器】——————————————"
+    white "—————————————【Socks5多IP服务器搭建】——————————————"
     red "1.Socks5---【多IP进出口 Dante】"
     blue "2.Socks5---【服务重启 Dante】"
     green "3.Socks5---【查看状态 Dante】"
     yellow "4.Socks5---【添加用户 Dante】"
     red "5.Socks5---【删除用户 Dante】"
     blue "6.Socks5---【卸载 Dante】"
-    red "—————————————【按【0】退出选项】——————————————"
+    red "—————————————【如需退出按【0】退出选项】——————————————"
     echo
     echo
     read -p "请输入数字:" num
