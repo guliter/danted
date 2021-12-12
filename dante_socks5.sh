@@ -89,7 +89,7 @@ start_menu(){
     blue "2.Socks5---【服务重启 Dante】"
     green "3.Socks5---【查看状态 Dante】"
     yellow "4.Socks5---【添加用户 Dante】"
-    red"5.Socks5---【删除用户 Dante】"
+    red "5.Socks5---【删除用户 Dante】"
     blue "6.Socks5---【卸载 Dante】"
     white "—————————————【按0退出选项】——————————————"
     echo
