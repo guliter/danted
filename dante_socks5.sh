@@ -89,9 +89,9 @@ echo
 
 dante() {
 	if [[ ! -d "/etc/danted" ]]; then
-		red " ---> 没有检测到安装目录，请执行脚本安装内容"
+		red " ---> 服务未曾安装！请执行安装服务【1】"
 	fi
-	 red "---Socks5 Dante 多IP服务已经安装！"
+	 red "--->Socks5 Dante 多IP服务已经安装！<---【3】"
 	
 
 }
@@ -106,9 +106,8 @@ start_menu(){
     yellow "4.Socks5---【添加用户 Dante】"
     red "5.Socks5---【删除用户 Dante】"
     blue "6.Socks5---【卸载 Dante】"
-    blue "Dante服务安装情况："
     dante
-    red "—————————————【如需退出按【0】退出选项】——————————————"
+    green "—————————————【如需退出按【0】退出选项】——————————————"
     echo
     echo
     read -p "请输入数字:" num
