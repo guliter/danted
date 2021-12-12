@@ -43,7 +43,7 @@ install_pack() {
 
 Dante_socks5(){
     #check root
-    wget --no-check-certificate https://raw.githubusercontent.com/guliter/danted/dev/install.sh -O install.sh&&bash install.sh  --port="51888" --user="123" --passwd="123"
+    wget --no-check-certificate https://raw.githubusercontent.com/guliter/danted/dev/install.sh -O install.sh&&bash install.sh  --port="9527" --user="789" --passwd="789"
 
 }
 
