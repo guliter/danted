@@ -56,7 +56,7 @@ socks5_add(){
 
 read -p "添加Socks5用户（用户和密码相同）：" users
 
-    /etc/init.d/sockd add &users &users
+    /etc/init.d/sockd adduser &users &users
 }
 
 
@@ -73,6 +73,11 @@ socks5_restart(){
 
 }
 
+socks5_deluser(){
+
+/etc/init.d/sockd deluser
+
+}
 
 
 #开始菜单
@@ -84,7 +89,8 @@ start_menu(){
     blue "2.Socks5---【服务重启 Dante】"
     green "3.Socks5---【查看状态 Dante】"
     yellow "4.Socks5---【添加用户 Dante】"
-    red "5.Socks5---【卸载 Dante】"
+    red"5.Socks5---【删除用户 Dante】"
+    blue "6.Socks5---【卸载 Dante】"
     white "—————————————【按0退出选项】——————————————"
     echo
     echo
@@ -103,6 +109,9 @@ start_menu(){
     socks5_add
     ;;
     5)
+    socks5_deluser
+    ;;
+    6)
     uninstall_socks5
     ;;
     0)
