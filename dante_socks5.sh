@@ -54,7 +54,9 @@ uninstall_socks5(){
 socks5_add(){
 
 
-bash <(curl -Ls https://raw.githubusercontent.com/guliter/danted/dev/add.sh)
+/etc/init.d/sockd adduser GameOn GameOn
+
+echo -e "默认添加用户密码为GameOn GameOn"
 
 }
 
