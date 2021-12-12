@@ -52,7 +52,11 @@ uninstall_socks5(){
 }
 
 socks5_add(){
-    /etc/init.d/sockd add 123 123
+
+
+read -p "添加Socks5用户（用户和密码相同）：" users
+
+    /etc/init.d/sockd add &users &users
 }
 
 
