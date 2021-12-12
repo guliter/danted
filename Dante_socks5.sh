@@ -1,6 +1,4 @@
-#!/usr/bin/env bash 多IP服务器进出口处理
-#PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
-#export PATH
+
 
 
 # 设置字体颜色函数
