@@ -112,5 +112,3 @@ start_menu(){
     esac
 }
 
-start_menu
-socks5_status
