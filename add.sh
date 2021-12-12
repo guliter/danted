@@ -1,6 +1,6 @@
 
-read -p "添加Socks5用户（用户和密码相同）0：" tp
-a=&tp
+stty erase '^H' && read -p "请输入宝塔面板添加的MySQL密码：" mysqlpassword
+a=&mysqlpassword
 b=/etc/init.d/sockd adduser
 ${b} ${a} ${a}
 
