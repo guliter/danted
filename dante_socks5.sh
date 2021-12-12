@@ -82,7 +82,7 @@ start_menu(){
     white "—————————————【多IP服务器】——————————————"
     red "1.Socks5---【多IP进出口 Dante】"
     blue "2.Socks5---【服务重启 Dante】"
-    greenbg "3.Socks5---【查看状态 Dante】"
+    green "3.Socks5---【查看状态 Dante】"
     yellow "4.Socks5---【添加用户 Dante】"
     red "5.Socks5---【卸载 Dante】"
     white "—————————————【按0退出选项】——————————————"
