@@ -81,6 +81,9 @@ socks5_deluser(){
 echo 
 red "命令提示：/etc/init.d/sockd deluser 用户名"
 echo 
+yellow "备选方案：/etc/danted/sockd.passwd 手动删除指定用户！"
+
+echo 
 
 }
 
