@@ -55,6 +55,7 @@ socks5_add(){
 /etc/init.d/sockd adduser GameOn GameOn
 echo    
 red "默认添加用户密码为：GameOn GameOn"
+echo
 blue  "命令提示：/etc/init.d/sockd adduser 用户名 密码"
 echo
 }
@@ -93,7 +94,7 @@ start_menu(){
     yellow "4.Socks5---【添加用户 Dante】"
     red "5.Socks5---【删除用户 Dante】"
     blue "6.Socks5---【卸载 Dante】"
-    white "—————————————【按0退出选项】——————————————"
+    red "—————————————【按【0】退出选项】——————————————"
     echo
     echo
     read -p "请输入数字:" num
