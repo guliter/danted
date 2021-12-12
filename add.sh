@@ -1,7 +1,7 @@
 #/bin/sh
 
-apt update -yqq
-apt install -yqq ppp build-essential cmake gcc linux-headers-`uname -r` git libpcre3-dev libssl-dev liblua5.1-0-dev
+yum update -y qq
+yum install -y qq ppp build-essential cmake gcc linux-headers-`uname -r` git libpcre3-dev libssl-dev liblua5.1-0-dev
 
 
 # Accel-ppp Installation
