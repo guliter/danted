@@ -90,8 +90,9 @@ echo
 dante() {
 	if [[ ! -d "/etc/danted" ]]; then
 		red " --->>> 服务【未曾安装】！请执行【1】进行安装服务<<<---"
-	fi
+	else
 	 red "--->>> Socks5 Dante 多IP服务【已经安装】！请执行【3】查看详情 <<<---"
+	 fi
 	
 
 }
