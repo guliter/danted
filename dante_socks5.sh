@@ -1,4 +1,4 @@
-
+# 设置字体颜色函数
 
 
 # 设置字体颜色函数
@@ -101,12 +101,12 @@ start_menu(){
     clear
     echo
     white "—————————————【Socks5多IP服务器搭建】——————————————"
-    red "1.Socks5---【多IP进出口 Dante】"
-    blue "2.Socks5---【服务重启 Dante】"
-    green "3.Socks5---【查看状态 Dante】"
-    yellow "4.Socks5---【添加用户 Dante】"
-    red "5.Socks5---【删除用户 Dante】"
-    blue "6.Socks5---【卸载 Dante】"
+    red "1.Socks5---【 多IP进出口 】"
+    blue "2.Socks5---【 服务重启 】"
+    green "3.Socks5---【 查看状态】"
+    yellow "4.Socks5---【 添加用户 】"
+    red "5.Socks5---【 删除用户】"
+    blue "6.Socks5---【 卸载 】"
     dante
     green "—————————————【如需退出按【0】退出选项】——————————————"
     echo
