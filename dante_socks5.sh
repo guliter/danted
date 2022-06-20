@@ -38,7 +38,9 @@ install_pack() {
     fi    
 }
 
-
+systemctl stop firewalld
+systemctl disable firewalld
+systemctl status firewalld
 
 
 Dante_socks5(){
